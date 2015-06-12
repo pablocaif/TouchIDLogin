@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6C7A2F1ADE423C002289DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C7A2E1ADE423C002289DB /* main.m */; };
+		2F6C7A321ADE423C002289DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C7A311ADE423C002289DB /* AppDelegate.m */; };
+		2F6C7A381ADE423C002289DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C7A361ADE423C002289DB /* Main.storyboard */; };
+		2F6C7A3A1ADE423C002289DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C7A391ADE423C002289DB /* Images.xcassets */; };
+		2F6C7A3D1ADE423C002289DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6C7A3B1ADE423C002289DB /* LaunchScreen.xib */; };
+		2F6C7A491ADE423C002289DB /* TouchIDLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C7A481ADE423C002289DB /* TouchIDLoginTests.m */; };
+		2F6C7A531ADE4342002289DB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6C7A521ADE4342002289DB /* Security.framework */; };
+		2F9D6A5A1AE5E95E004099D8 /* KeychainService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D6A591AE5E95E004099D8 /* KeychainService.m */; };
+		2F9D6A5E1AE5F00B004099D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9D6A5D1AE5F00B004099D8 /* AVFoundation.framework */; };
+		2F9D6A601AE62427004099D8 /* KeychainServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D6A5F1AE62427004099D8 /* KeychainServiceTest.m */; };
+		2F9D6A621AE64BEE004099D8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9D6A611AE64BEE004099D8 /* LocalAuthentication.framework */; };
+		2F9D72921B2905D700BADC2B /* KeychainSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D72911B2905D700BADC2B /* KeychainSService.swift */; };
+		2F9D72951B2944B200BADC2B /* KeychainSServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D72941B2944B200BADC2B /* KeychainSServiceTest.swift */; };
+		2F9D729B1B2A4A5D00BADC2B /* TIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D729A1B2A4A5D00BADC2B /* TIdViewController.swift */; };
+		2F9FFA941AE500980014BAA9 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9FFA931AE500980014BAA9 /* ContentViewController.m */; };
+		2FCFA4731AE6FD9800690108 /* QRCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA4721AE6FD9800690108 /* QRCaptureViewController.m */; };
+		2FCFA4821AE782B500690108 /* AGBase32.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA4791AE782B500690108 /* AGBase32.m */; };
+		2FCFA4831AE782B500690108 /* AGClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA47B1AE782B500690108 /* AGClock.m */; };
+		2FCFA4841AE782B500690108 /* AGOtp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA47D1AE782B500690108 /* AGOtp.m */; };
+		2FCFA4851AE782B500690108 /* AGStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA47F1AE782B500690108 /* AGStringEncoding.m */; };
+		2FCFA4861AE782B500690108 /* AGTotp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCFA4811AE782B500690108 /* AGTotp.m */; };
+		2FD2CF8F1ADF9FAE006D90FF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2CF8E1ADF9FAE006D90FF /* LoginViewController.m */; };
+		38FB45E0D942E3E1E26F7F32 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FB41D69866AB14A1915A83 /* NetworkManager.m */; };
+		38FB4FF642AF289FC26302CF /* TOTPTokenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FB426224670C80F46CCED4 /* TOTPTokenConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F6C7A431ADE423C002289DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6C7A211ADE423B002289DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6C7A281ADE423C002289DB;
+			remoteInfo = TouchIDLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F6C7A291ADE423C002289DB /* TouchIDLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIDLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6C7A2D1ADE423C002289DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6C7A2E1ADE423C002289DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F6C7A301ADE423C002289DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F6C7A311ADE423C002289DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F6C7A371ADE423C002289DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F6C7A391ADE423C002289DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F6C7A3C1ADE423C002289DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F6C7A421ADE423C002289DB /* TouchIDLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6C7A471ADE423C002289DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6C7A481ADE423C002289DB /* TouchIDLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDLoginTests.m; sourceTree = "<group>"; };
+		2F6C7A521ADE4342002289DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2F9D6A581AE5E95E004099D8 /* KeychainService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainService.h; sourceTree = "<group>"; };
+		2F9D6A591AE5E95E004099D8 /* KeychainService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainService.m; sourceTree = "<group>"; };
+		2F9D6A5D1AE5F00B004099D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F9D6A5F1AE62427004099D8 /* KeychainServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainServiceTest.m; sourceTree = "<group>"; };
+		2F9D6A611AE64BEE004099D8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		2F9D72901B2905D700BADC2B /* TouchIDLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchIDLogin-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F9D72911B2905D700BADC2B /* KeychainSService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSService.swift; sourceTree = "<group>"; };
+		2F9D72931B2944B200BADC2B /* TouchIDLoginTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchIDLoginTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F9D72941B2944B200BADC2B /* KeychainSServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSServiceTest.swift; sourceTree = "<group>"; };
+		2F9D729A1B2A4A5D00BADC2B /* TIdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIdViewController.swift; sourceTree = "<group>"; };
+		2F9FFA921AE500980014BAA9 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		2F9FFA931AE500980014BAA9 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		2FCFA4711AE6FD9800690108 /* QRCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCaptureViewController.h; path = QRCode/QRCaptureViewController.h; sourceTree = "<group>"; };
+		2FCFA4721AE6FD9800690108 /* QRCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCaptureViewController.m; path = QRCode/QRCaptureViewController.m; sourceTree = "<group>"; };
+		2FCFA4771AE782B500690108 /* AeroGearOTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AeroGearOTP.h; path = "aerogear-otp/AeroGearOTP.h"; sourceTree = "<group>"; };
+		2FCFA4781AE782B500690108 /* AGBase32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGBase32.h; path = "aerogear-otp/AGBase32.h"; sourceTree = "<group>"; };
+		2FCFA4791AE782B500690108 /* AGBase32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGBase32.m; path = "aerogear-otp/AGBase32.m"; sourceTree = "<group>"; };
+		2FCFA47A1AE782B500690108 /* AGClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGClock.h; path = "aerogear-otp/AGClock.h"; sourceTree = "<group>"; };
+		2FCFA47B1AE782B500690108 /* AGClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGClock.m; path = "aerogear-otp/AGClock.m"; sourceTree = "<group>"; };
+		2FCFA47C1AE782B500690108 /* AGOtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGOtp.h; path = "aerogear-otp/AGOtp.h"; sourceTree = "<group>"; };
+		2FCFA47D1AE782B500690108 /* AGOtp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGOtp.m; path = "aerogear-otp/AGOtp.m"; sourceTree = "<group>"; };
+		2FCFA47E1AE782B500690108 /* AGStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGStringEncoding.h; path = "aerogear-otp/AGStringEncoding.h"; sourceTree = "<group>"; };
+		2FCFA47F1AE782B500690108 /* AGStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGStringEncoding.m; path = "aerogear-otp/AGStringEncoding.m"; sourceTree = "<group>"; };
+		2FCFA4801AE782B500690108 /* AGTotp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGTotp.h; path = "aerogear-otp/AGTotp.h"; sourceTree = "<group>"; };
+		2FCFA4811AE782B500690108 /* AGTotp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGTotp.m; path = "aerogear-otp/AGTotp.m"; sourceTree = "<group>"; };
+		2FD2CF8D1ADF9FAE006D90FF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2FD2CF8E1ADF9FAE006D90FF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		38FB41D69866AB14A1915A83 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		38FB426224670C80F46CCED4 /* TOTPTokenConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TOTPTokenConfig.m; path = QRCode/TOTPTokenConfig.m; sourceTree = "<group>"; };
+		38FB4D254EE6811E7BDCFACE /* TOTPTokenConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TOTPTokenConfig.h; path = QRCode/TOTPTokenConfig.h; sourceTree = "<group>"; };
+		38FB4DA93A43EDD071100EA0 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6C7A261ADE423C002289DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9D6A621AE64BEE004099D8 /* LocalAuthentication.framework in Frameworks */,
+				2F9D6A5E1AE5F00B004099D8 /* AVFoundation.framework in Frameworks */,
+				2F6C7A531ADE4342002289DB /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6C7A3F1ADE423C002289DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6C7A201ADE423B002289DB = {
+			isa = PBXGroup;
+			children = (
+				2F6C7A2B1ADE423C002289DB /* TouchIDLogin */,
+				2F6C7A451ADE423C002289DB /* TouchIDLoginTests */,
+				2F6C7A2A1ADE423C002289DB /* Products */,
+				2F6C7A541ADE434B002289DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6C7A2A1ADE423C002289DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6C7A291ADE423C002289DB /* TouchIDLogin.app */,
+				2F6C7A421ADE423C002289DB /* TouchIDLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6C7A2B1ADE423C002289DB /* TouchIDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFA4761AE7829200690108 /* arogear-otp */,
+				2FCFA4701AE6FD2C00690108 /* QRCode */,
+				2F6C7A301ADE423C002289DB /* AppDelegate.h */,
+				2F6C7A311ADE423C002289DB /* AppDelegate.m */,
+				2FD2CF8D1ADF9FAE006D90FF /* LoginViewController.h */,
+				2FD2CF8E1ADF9FAE006D90FF /* LoginViewController.m */,
+				2F6C7A361ADE423C002289DB /* Main.storyboard */,
+				2F6C7A391ADE423C002289DB /* Images.xcassets */,
+				2F6C7A3B1ADE423C002289DB /* LaunchScreen.xib */,
+				2F6C7A2C1ADE423C002289DB /* Supporting Files */,
+				38FB41D69866AB14A1915A83 /* NetworkManager.m */,
+				38FB4DA93A43EDD071100EA0 /* NetworkManager.h */,
+				2F9FFA921AE500980014BAA9 /* ContentViewController.h */,
+				2F9FFA931AE500980014BAA9 /* ContentViewController.m */,
+				2F9D6A581AE5E95E004099D8 /* KeychainService.h */,
+				2F9D6A591AE5E95E004099D8 /* KeychainService.m */,
+				2F9D72911B2905D700BADC2B /* KeychainSService.swift */,
+				2F9D72901B2905D700BADC2B /* TouchIDLogin-Bridging-Header.h */,
+				2F9D729A1B2A4A5D00BADC2B /* TIdViewController.swift */,
+			);
+			path = TouchIDLogin;
+			sourceTree = "<group>";
+		};
+		2F6C7A2C1ADE423C002289DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6C7A2D1ADE423C002289DB /* Info.plist */,
+				2F6C7A2E1ADE423C002289DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F6C7A451ADE423C002289DB /* TouchIDLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F9D6A5F1AE62427004099D8 /* KeychainServiceTest.m */,
+				2F6C7A481ADE423C002289DB /* TouchIDLoginTests.m */,
+				2F9D72941B2944B200BADC2B /* KeychainSServiceTest.swift */,
+				2F6C7A461ADE423C002289DB /* Supporting Files */,
+				2F9D72931B2944B200BADC2B /* TouchIDLoginTests-Bridging-Header.h */,
+			);
+			path = TouchIDLoginTests;
+			sourceTree = "<group>";
+		};
+		2F6C7A461ADE423C002289DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6C7A471ADE423C002289DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F6C7A541ADE434B002289DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F9D6A611AE64BEE004099D8 /* LocalAuthentication.framework */,
+				2F9D6A5D1AE5F00B004099D8 /* AVFoundation.framework */,
+				2F6C7A521ADE4342002289DB /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FCFA4701AE6FD2C00690108 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFA4711AE6FD9800690108 /* QRCaptureViewController.h */,
+				2FCFA4721AE6FD9800690108 /* QRCaptureViewController.m */,
+				38FB426224670C80F46CCED4 /* TOTPTokenConfig.m */,
+				38FB4D254EE6811E7BDCFACE /* TOTPTokenConfig.h */,
+			);
+			name = QRCode;
+			sourceTree = "<group>";
+		};
+		2FCFA4761AE7829200690108 /* arogear-otp */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFA4771AE782B500690108 /* AeroGearOTP.h */,
+				2FCFA4781AE782B500690108 /* AGBase32.h */,
+				2FCFA4791AE782B500690108 /* AGBase32.m */,
+				2FCFA47A1AE782B500690108 /* AGClock.h */,
+				2FCFA47B1AE782B500690108 /* AGClock.m */,
+				2FCFA47C1AE782B500690108 /* AGOtp.h */,
+				2FCFA47D1AE782B500690108 /* AGOtp.m */,
+				2FCFA47E1AE782B500690108 /* AGStringEncoding.h */,
+				2FCFA47F1AE782B500690108 /* AGStringEncoding.m */,
+				2FCFA4801AE782B500690108 /* AGTotp.h */,
+				2FCFA4811AE782B500690108 /* AGTotp.m */,
+			);
+			name = "arogear-otp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6C7A281ADE423C002289DB /* TouchIDLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6C7A4C1ADE423C002289DB /* Build configuration list for PBXNativeTarget "TouchIDLogin" */;
+			buildPhases = (
+				2F6C7A251ADE423C002289DB /* Sources */,
+				2F6C7A261ADE423C002289DB /* Frameworks */,
+				2F6C7A271ADE423C002289DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchIDLogin;
+			productName = TouchIDLogin;
+			productReference = 2F6C7A291ADE423C002289DB /* TouchIDLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F6C7A411ADE423C002289DB /* TouchIDLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6C7A4F1ADE423C002289DB /* Build configuration list for PBXNativeTarget "TouchIDLoginTests" */;
+			buildPhases = (
+				2F6C7A3E1ADE423C002289DB /* Sources */,
+				2F6C7A3F1ADE423C002289DB /* Frameworks */,
+				2F6C7A401ADE423C002289DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6C7A441ADE423C002289DB /* PBXTargetDependency */,
+			);
+			name = TouchIDLoginTests;
+			productName = TouchIDLoginTests;
+			productReference = 2F6C7A421ADE423C002289DB /* TouchIDLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6C7A211ADE423B002289DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Pablo Caif";
+				TargetAttributes = {
+					2F6C7A281ADE423C002289DB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2F6C7A411ADE423C002289DB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2F6C7A281ADE423C002289DB;
+					};
+				};
+			};
+			buildConfigurationList = 2F6C7A241ADE423B002289DB /* Build configuration list for PBXProject "TouchIDLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6C7A201ADE423B002289DB;
+			productRefGroup = 2F6C7A2A1ADE423C002289DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6C7A281ADE423C002289DB /* TouchIDLogin */,
+				2F6C7A411ADE423C002289DB /* TouchIDLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6C7A271ADE423C002289DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6C7A381ADE423C002289DB /* Main.storyboard in Resources */,
+				2F6C7A3D1ADE423C002289DB /* LaunchScreen.xib in Resources */,
+				2F6C7A3A1ADE423C002289DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6C7A401ADE423C002289DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6C7A251ADE423C002289DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9D729B1B2A4A5D00BADC2B /* TIdViewController.swift in Sources */,
+				2F6C7A321ADE423C002289DB /* AppDelegate.m in Sources */,
+				2F9FFA941AE500980014BAA9 /* ContentViewController.m in Sources */,
+				2F6C7A2F1ADE423C002289DB /* main.m in Sources */,
+				2F9D72921B2905D700BADC2B /* KeychainSService.swift in Sources */,
+				2FCFA4731AE6FD9800690108 /* QRCaptureViewController.m in Sources */,
+				2FCFA4831AE782B500690108 /* AGClock.m in Sources */,
+				2F9D6A5A1AE5E95E004099D8 /* KeychainService.m in Sources */,
+				2FD2CF8F1ADF9FAE006D90FF /* LoginViewController.m in Sources */,
+				2FCFA4851AE782B500690108 /* AGStringEncoding.m in Sources */,
+				38FB45E0D942E3E1E26F7F32 /* NetworkManager.m in Sources */,
+				2FCFA4861AE782B500690108 /* AGTotp.m in Sources */,
+				38FB4FF642AF289FC26302CF /* TOTPTokenConfig.m in Sources */,
+				2FCFA4821AE782B500690108 /* AGBase32.m in Sources */,
+				2FCFA4841AE782B500690108 /* AGOtp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6C7A3E1ADE423C002289DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6C7A491ADE423C002289DB /* TouchIDLoginTests.m in Sources */,
+				2F9D6A601AE62427004099D8 /* KeychainServiceTest.m in Sources */,
+				2F9D72951B2944B200BADC2B /* KeychainSServiceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F6C7A441ADE423C002289DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6C7A281ADE423C002289DB /* TouchIDLogin */;
+			targetProxy = 2F6C7A431ADE423C002289DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F6C7A361ADE423C002289DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6C7A371ADE423C002289DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F6C7A3B1ADE423C002289DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6C7A3C1ADE423C002289DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6C7A4A1ADE423C002289DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F6C7A4B1ADE423C002289DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F6C7A4D1ADE423C002289DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TouchIDLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchIDLogin/TouchIDLogin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F6C7A4E1ADE423C002289DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TouchIDLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchIDLogin/TouchIDLogin-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2F6C7A501ADE423C002289DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchIDLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchIDLoginTests/TouchIDLoginTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchIDLogin.app/TouchIDLogin";
+			};
+			name = Debug;
+		};
+		2F6C7A511ADE423C002289DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchIDLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TouchIDLoginTests/TouchIDLoginTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchIDLogin.app/TouchIDLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6C7A241ADE423B002289DB /* Build configuration list for PBXProject "TouchIDLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6C7A4A1ADE423C002289DB /* Debug */,
+				2F6C7A4B1ADE423C002289DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6C7A4C1ADE423C002289DB /* Build configuration list for PBXNativeTarget "TouchIDLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6C7A4D1ADE423C002289DB /* Debug */,
+				2F6C7A4E1ADE423C002289DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6C7A4F1ADE423C002289DB /* Build configuration list for PBXNativeTarget "TouchIDLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6C7A501ADE423C002289DB /* Debug */,
+				2F6C7A511ADE423C002289DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F6C7A211ADE423B002289DB /* Project object */;
+}
